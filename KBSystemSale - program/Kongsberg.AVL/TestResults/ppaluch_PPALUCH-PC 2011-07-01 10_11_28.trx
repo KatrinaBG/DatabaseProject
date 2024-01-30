@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="84cdc475-b73d-494e-ad94-d0cf338796f7" name="ppaluch@PPALUCH-PC 2011-07-01 10:11:28" runUser="ppaluch-PC\ppaluch" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0fe7432d-44f5-4c37-bd61-36814148c0df">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ppaluch_PPALUCH-PC 2011-07-01 10_11_28">
+      <DeploymentItem filename="C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\Kongsberg.AVL\bin\Debug\Kongsberg.AVL.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-07-01T10:11:28.0647054+02:00" queuing="2011-07-01T10:11:40.9040354+02:00" start="2011-07-01T10:11:41.4900505+02:00" finish="2011-07-01T10:11:45.5781555+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AssertLLTreeRotationDone" storage="c:\users\ppaluch\documents\visual studio 2010\projects\kongsberg.avl\kongsberg.avl.tests\bin\debug\kongsberg.avl.tests.dll" id="4cf07f4b-f3dd-f4b3-37d6-76cd74ce50ec">
+      <Execution id="c6b33347-85e4-4834-8be9-f99e28f6d212" />
+      <TestMethod codeBase="C:/Users/ppaluch/Documents/Visual Studio 2010/Projects/Kongsberg.AVL/Kongsberg.AVL.Tests/bin/Debug/Kongsberg.AVL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Kongsberg.AVL.Tests.AVLTreeTest, Kongsberg.AVL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AssertLLTreeRotationDone" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4cf07f4b-f3dd-f4b3-37d6-76cd74ce50ec" executionId="c6b33347-85e4-4834-8be9-f99e28f6d212" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c6b33347-85e4-4834-8be9-f99e28f6d212" testId="4cf07f4b-f3dd-f4b3-37d6-76cd74ce50ec" testName="AssertLLTreeRotationDone" computerName="PPALUCH-PC" duration="00:00:00.1659407" startTime="2011-07-01T10:11:41.9080612+02:00" endTime="2011-07-01T10:11:45.2831480+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6b33347-85e4-4834-8be9-f99e28f6d212">
+    </UnitTestResult>
+  </Results>
+</TestRun>

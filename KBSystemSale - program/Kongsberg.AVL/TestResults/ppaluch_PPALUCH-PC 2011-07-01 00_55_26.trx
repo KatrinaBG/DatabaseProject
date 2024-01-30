@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bd4a73c5-b8fa-4ed8-aa31-c10fda0efc22" name="ppaluch@PPALUCH-PC 2011-07-01 00:55:26" runUser="ppaluch-PC\ppaluch" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0fe7432d-44f5-4c37-bd61-36814148c0df">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ppaluch_PPALUCH-PC 2011-07-01 00_55_26">
+      <DeploymentItem filename="c:\users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\Kongsberg.AVL\bin\Debug\Kongsberg.AVL.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-07-01T00:55:26.1616034+02:00" queuing="2011-07-01T00:55:34.4558166+02:00" start="2011-07-01T00:55:35.0958330+02:00" finish="2011-07-01T00:58:40.7816051+02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="3" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="2" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PPALUCH-PC" outcome="Error" timestamp="2011-07-01T00:58:40.7736048+02:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AssertLeafEqualToActionObjectWhenOneNodeToSimpleTreeAdded" storage="c:\users\ppaluch\documents\visual studio 2010\projects\kongsberg.avl\kongsberg.avl.tests\bin\debug\kongsberg.avl.tests.dll" id="beae231e-2f5d-5388-d885-ef9acf394746">
+      <Execution id="7fabcb7e-03c4-4c0e-87e8-185351d5a60b" />
+      <TestMethod codeBase="c:/users/ppaluch/documents/visual studio 2010/Projects/Kongsberg.AVL/Kongsberg.AVL.Tests/bin/Debug/Kongsberg.AVL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Kongsberg.AVL.Tests.AVLTreeTest, Kongsberg.AVL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AssertLeafEqualToActionObjectWhenOneNodeToSimpleTreeAdded" />
+    </UnitTest>
+    <UnitTest name="AssertBalanceFactorWhenSixNodesToTreeAdded" storage="c:\users\ppaluch\documents\visual studio 2010\projects\kongsberg.avl\kongsberg.avl.tests\bin\debug\kongsberg.avl.tests.dll" id="11622b10-6ac4-987e-ebe5-962c711f6881">
+      <Execution id="f602ef18-cac4-49b0-9fec-de184a79c223" />
+      <TestMethod codeBase="c:/users/ppaluch/documents/visual studio 2010/Projects/Kongsberg.AVL/Kongsberg.AVL.Tests/bin/Debug/Kongsberg.AVL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Kongsberg.AVL.Tests.AVLTreeTest, Kongsberg.AVL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AssertBalanceFactorWhenSixNodesToTreeAdded" />
+    </UnitTest>
+    <UnitTest name="AssertLeafsEqualToActionObjectWhenThreeNodesToTreeAdded" storage="c:\users\ppaluch\documents\visual studio 2010\projects\kongsberg.avl\kongsberg.avl.tests\bin\debug\kongsberg.avl.tests.dll" id="3544e00e-50c5-bcb3-65ad-9342f61e557e">
+      <Execution id="9cf644ed-8626-4476-9d5d-5938b209eba4" />
+      <TestMethod codeBase="c:/users/ppaluch/documents/visual studio 2010/Projects/Kongsberg.AVL/Kongsberg.AVL.Tests/bin/Debug/Kongsberg.AVL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Kongsberg.AVL.Tests.AVLTreeTest, Kongsberg.AVL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AssertLeafsEqualToActionObjectWhenThreeNodesToTreeAdded" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="11622b10-6ac4-987e-ebe5-962c711f6881" executionId="f602ef18-cac4-49b0-9fec-de184a79c223" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3544e00e-50c5-bcb3-65ad-9342f61e557e" executionId="9cf644ed-8626-4476-9d5d-5938b209eba4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="beae231e-2f5d-5388-d885-ef9acf394746" executionId="7fabcb7e-03c4-4c0e-87e8-185351d5a60b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f602ef18-cac4-49b0-9fec-de184a79c223" testId="11622b10-6ac4-987e-ebe5-962c711f6881" testName="AssertBalanceFactorWhenSixNodesToTreeAdded" computerName="PPALUCH-PC" duration="00:03:05.2587611" startTime="2011-07-01T00:55:35.5228440+02:00" endTime="2011-07-01T00:58:40.7816051+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f602ef18-cac4-49b0-9fec-de184a79c223">
+    </UnitTestResult>
+    <UnitTestResult executionId="9cf644ed-8626-4476-9d5d-5938b209eba4" testId="3544e00e-50c5-bcb3-65ad-9342f61e557e" testName="AssertLeafsEqualToActionObjectWhenThreeNodesToTreeAdded" computerName="PPALUCH-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9cf644ed-8626-4476-9d5d-5938b209eba4">
+    </UnitTestResult>
+    <UnitTestResult executionId="7fabcb7e-03c4-4c0e-87e8-185351d5a60b" testId="beae231e-2f5d-5388-d885-ef9acf394746" testName="AssertLeafEqualToActionObjectWhenOneNodeToSimpleTreeAdded" computerName="PPALUCH-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7fabcb7e-03c4-4c0e-87e8-185351d5a60b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bc6ee960-a87f-49a9-af8c-aa1bec59efbb" name="ppaluch@PPALUCH-PC 2011-07-01 10:59:40" runUser="ppaluch-PC\ppaluch" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0fe7432d-44f5-4c37-bd61-36814148c0df">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ppaluch_PPALUCH-PC 2011-07-01 10_59_40">
+      <DeploymentItem filename="C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\Kongsberg.AVL\bin\Debug\Kongsberg.AVL.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-07-01T10:59:40.7010443+02:00" queuing="2011-07-01T10:59:41.4270630+02:00" start="2011-07-01T10:59:41.5950673+02:00" finish="2011-07-01T10:59:42.7840978+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="7" executed="7" passed="6" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AssertLRTreeRotationDone" storage="c:\users\ppaluch\documents\visual studio 2010\projects\kongsberg.avl\kongsberg.avl.tests\bin\debug\kongsberg.avl.tests.dll" id="e634ea4f-e046-3b2f-3fcf-6d25276741c4">
+      <Execution id="a7b08227-a5b5-4b2f-a709-45fd98d9d24b" />
+      <TestMethod codeBase="C:/Users/ppaluch/Documents/Visual Studio 2010/Projects/Kongsberg.AVL/Kongsberg.AVL.Tests/bin/Debug/Kongsberg.AVL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Kongsberg.AVL.Tests.AVLTreeTest, Kongsberg.AVL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AssertLRTreeRotationDone" />
+    </UnitTest>
+    <UnitTest name="AssertLeafEqualToActionObjectWhenOneNodeToDoubleLevelTreeAdded" storage="c:\users\ppaluch\documents\visual studio 2010\projects\kongsberg.avl\kongsberg.avl.tests\bin\debug\kongsberg.avl.tests.dll" id="e66b52ee-0ff2-62b7-d9e5-f8087d2e58d1">
+      <Execution id="30654688-dba5-4bdc-9018-3491eaa373e2" />
+      <TestMethod codeBase="C:/Users/ppaluch/Documents/Visual Studio 2010/Projects/Kongsberg.AVL/Kongsberg.AVL.Tests/bin/Debug/Kongsberg.AVL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Kongsberg.AVL.Tests.AVLTreeTest, Kongsberg.AVL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AssertLeafEqualToActionObjectWhenOneNodeToDoubleLevelTreeAdded" />
+    </UnitTest>
+    <UnitTest name="AssertRLTreeRotationDone" storage="c:\users\ppaluch\documents\visual studio 2010\projects\kongsberg.avl\kongsberg.avl.tests\bin\debug\kongsberg.avl.tests.dll" id="6dc6b7da-f1b7-9cd3-17eb-994fc1e77d83">
+      <Execution id="5c11ab8a-3695-4b4f-9e04-0ec2b6b43b1f" />
+      <TestMethod codeBase="C:/Users/ppaluch/Documents/Visual Studio 2010/Projects/Kongsberg.AVL/Kongsberg.AVL.Tests/bin/Debug/Kongsberg.AVL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Kongsberg.AVL.Tests.AVLTreeTest, Kongsberg.AVL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AssertRLTreeRotationDone" />
+    </UnitTest>
+    <UnitTest name="AssertLeafEqualToActionObjectWhenOneNodeToSimpleTreeAdded" storage="c:\users\ppaluch\documents\visual studio 2010\projects\kongsberg.avl\kongsberg.avl.tests\bin\debug\kongsberg.avl.tests.dll" id="beae231e-2f5d-5388-d885-ef9acf394746">
+      <Execution id="b846b3cd-cd8a-4c6e-89c2-55d9c2537c8a" />
+      <TestMethod codeBase="C:/Users/ppaluch/Documents/Visual Studio 2010/Projects/Kongsberg.AVL/Kongsberg.AVL.Tests/bin/Debug/Kongsberg.AVL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Kongsberg.AVL.Tests.AVLTreeTest, Kongsberg.AVL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AssertLeafEqualToActionObjectWhenOneNodeToSimpleTreeAdded" />
+    </UnitTest>
+    <UnitTest name="AssertRRTreeRotationDone" storage="c:\users\ppaluch\documents\visual studio 2010\projects\kongsberg.avl\kongsberg.avl.tests\bin\debug\kongsberg.avl.tests.dll" id="863c5bc9-2a17-65a1-01a8-425c164a7694">
+      <Execution id="a609a984-63f5-49e7-8bf8-370479ce8b46" />
+      <TestMethod codeBase="C:/Users/ppaluch/Documents/Visual Studio 2010/Projects/Kongsberg.AVL/Kongsberg.AVL.Tests/bin/Debug/Kongsberg.AVL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Kongsberg.AVL.Tests.AVLTreeTest, Kongsberg.AVL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AssertRRTreeRotationDone" />
+    </UnitTest>
+    <UnitTest name="AssertLeafsEqualToActionObjectWhenThreeNodesToTreeAdded" storage="c:\users\ppaluch\documents\visual studio 2010\projects\kongsberg.avl\kongsberg.avl.tests\bin\debug\kongsberg.avl.tests.dll" id="3544e00e-50c5-bcb3-65ad-9342f61e557e">
+      <Execution id="8a1ae4e4-d55f-4e41-8ea9-4595ed442d0c" />
+      <TestMethod codeBase="C:/Users/ppaluch/Documents/Visual Studio 2010/Projects/Kongsberg.AVL/Kongsberg.AVL.Tests/bin/Debug/Kongsberg.AVL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Kongsberg.AVL.Tests.AVLTreeTest, Kongsberg.AVL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AssertLeafsEqualToActionObjectWhenThreeNodesToTreeAdded" />
+    </UnitTest>
+    <UnitTest name="AssertLLTreeRotationDone" storage="c:\users\ppaluch\documents\visual studio 2010\projects\kongsberg.avl\kongsberg.avl.tests\bin\debug\kongsberg.avl.tests.dll" id="4cf07f4b-f3dd-f4b3-37d6-76cd74ce50ec">
+      <Execution id="aa9b2e40-58c9-4aea-93b3-3c66bb4182d9" />
+      <TestMethod codeBase="C:/Users/ppaluch/Documents/Visual Studio 2010/Projects/Kongsberg.AVL/Kongsberg.AVL.Tests/bin/Debug/Kongsberg.AVL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Kongsberg.AVL.Tests.AVLTreeTest, Kongsberg.AVL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AssertLLTreeRotationDone" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3544e00e-50c5-bcb3-65ad-9342f61e557e" executionId="8a1ae4e4-d55f-4e41-8ea9-4595ed442d0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4cf07f4b-f3dd-f4b3-37d6-76cd74ce50ec" executionId="aa9b2e40-58c9-4aea-93b3-3c66bb4182d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6dc6b7da-f1b7-9cd3-17eb-994fc1e77d83" executionId="5c11ab8a-3695-4b4f-9e04-0ec2b6b43b1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="863c5bc9-2a17-65a1-01a8-425c164a7694" executionId="a609a984-63f5-49e7-8bf8-370479ce8b46" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="beae231e-2f5d-5388-d885-ef9acf394746" executionId="b846b3cd-cd8a-4c6e-89c2-55d9c2537c8a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e634ea4f-e046-3b2f-3fcf-6d25276741c4" executionId="a7b08227-a5b5-4b2f-a709-45fd98d9d24b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e66b52ee-0ff2-62b7-d9e5-f8087d2e58d1" executionId="30654688-dba5-4bdc-9018-3491eaa373e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8a1ae4e4-d55f-4e41-8ea9-4595ed442d0c" testId="3544e00e-50c5-bcb3-65ad-9342f61e557e" testName="AssertLeafsEqualToActionObjectWhenThreeNodesToTreeAdded" computerName="PPALUCH-PC" duration="00:00:00.0332931" startTime="2011-07-01T10:59:41.7940724+02:00" endTime="2011-07-01T10:59:42.3740873+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a1ae4e4-d55f-4e41-8ea9-4595ed442d0c">
+    </UnitTestResult>
+    <UnitTestResult executionId="aa9b2e40-58c9-4aea-93b3-3c66bb4182d9" testId="4cf07f4b-f3dd-f4b3-37d6-76cd74ce50ec" testName="AssertLLTreeRotationDone" computerName="PPALUCH-PC" duration="00:00:00.0042869" startTime="2011-07-01T10:59:42.4040881+02:00" endTime="2011-07-01T10:59:42.4180884+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa9b2e40-58c9-4aea-93b3-3c66bb4182d9">
+    </UnitTestResult>
+    <UnitTestResult executionId="5c11ab8a-3695-4b4f-9e04-0ec2b6b43b1f" testId="6dc6b7da-f1b7-9cd3-17eb-994fc1e77d83" testName="AssertRLTreeRotationDone" computerName="PPALUCH-PC" duration="00:00:00.0038094" startTime="2011-07-01T10:59:42.4250886+02:00" endTime="2011-07-01T10:59:42.4390890+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c11ab8a-3695-4b4f-9e04-0ec2b6b43b1f">
+    </UnitTestResult>
+    <UnitTestResult executionId="a609a984-63f5-49e7-8bf8-370479ce8b46" testId="863c5bc9-2a17-65a1-01a8-425c164a7694" testName="AssertRRTreeRotationDone" computerName="PPALUCH-PC" duration="00:00:00.0010511" startTime="2011-07-01T10:59:42.4430891+02:00" endTime="2011-07-01T10:59:42.4630896+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a609a984-63f5-49e7-8bf8-370479ce8b46">
+    </UnitTestResult>
+    <UnitTestResult executionId="b846b3cd-cd8a-4c6e-89c2-55d9c2537c8a" testId="beae231e-2f5d-5388-d885-ef9acf394746" testName="AssertLeafEqualToActionObjectWhenOneNodeToSimpleTreeAdded" computerName="PPALUCH-PC" duration="00:00:00.0017450" startTime="2011-07-01T10:59:42.4690897+02:00" endTime="2011-07-01T10:59:42.5000905+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b846b3cd-cd8a-4c6e-89c2-55d9c2537c8a">
+    </UnitTestResult>
+    <UnitTestResult executionId="a7b08227-a5b5-4b2f-a709-45fd98d9d24b" testId="e634ea4f-e046-3b2f-3fcf-6d25276741c4" testName="AssertLRTreeRotationDone" computerName="PPALUCH-PC" duration="00:00:00.0016622" startTime="2011-07-01T10:59:42.5140909+02:00" endTime="2011-07-01T10:59:42.5330914+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7b08227-a5b5-4b2f-a709-45fd98d9d24b">
+    </UnitTestResult>
+    <UnitTestResult executionId="30654688-dba5-4bdc-9018-3491eaa373e2" testId="e66b52ee-0ff2-62b7-d9e5-f8087d2e58d1" testName="AssertLeafEqualToActionObjectWhenOneNodeToDoubleLevelTreeAdded" computerName="PPALUCH-PC" duration="00:00:00.0460822" startTime="2011-07-01T10:59:42.5420916+02:00" endTime="2011-07-01T10:59:42.6140935+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30654688-dba5-4bdc-9018-3491eaa373e2">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Kongsberg.AVL.Tests.AVLTreeTest.AssertLeafEqualToActionObjectWhenOneNodeToDoubleLevelTreeAdded threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Kongsberg.AVL.AVLTree.FindNode(Byte[] nodePath) in C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\Kongsberg.AVL\AVLTree.cs:line 298
+   at Kongsberg.AVL.Tests.AVLTreeTest.AssertLeafEqualToActionObjectWhenOneNodeToDoubleLevelTreeAdded() in C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\Kongsberg.AVL.Tests\AVLTreeTest.cs:line 231
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

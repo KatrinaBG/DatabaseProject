@@ -1,0 +1,14 @@
+﻿<Page x:Class="KBSystemSale.Peages.WelcomePeages"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="659" d:DesignWidth="906"
+	Title="WelcomePeages">
+
+    <Grid>
+        <Label Content="Witamy w systemie sprzedażowym" Height="57" HorizontalAlignment="Left" Margin="234,204,0,0" Name="label1" VerticalAlignment="Top" Width="457" FontSize="26" FontStyle="Normal" FontWeight="Black" Foreground="#FF2C9A12" />
+        <Label Content="KBSystemSale" Height="55" HorizontalAlignment="Left" Margin="365,310,0,0" Name="label2" VerticalAlignment="Top" FontSize="26" Width="194" FontWeight="ExtraBlack" Foreground="#FF138913" />
+    </Grid>
+</Page>

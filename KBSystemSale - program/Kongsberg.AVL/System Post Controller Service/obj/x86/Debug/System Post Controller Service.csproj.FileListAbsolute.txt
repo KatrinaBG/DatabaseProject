@@ -1,0 +1,38 @@
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\System Post Controller Service\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\System Post Controller Service\bin\Debug\System Post Controller Service.exe
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\System Post Controller Service\bin\Debug\System Post Controller Service.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\System Post Controller Service\bin\Debug\ADSWrapper.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\System Post Controller Service\bin\Debug\CANWrapper.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\System Post Controller Service\bin\Debug\Kongsberg.AVL.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\System Post Controller Service\bin\Debug\vxlapi_NET20.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\System Post Controller Service\bin\Debug\ADSWrapper.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\System Post Controller Service\bin\Debug\CANWrapper.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\System Post Controller Service\bin\Debug\Kongsberg.AVL.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\System Post Controller Service\bin\Debug\vxlapi_NET20.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\System Post Controller Service\obj\x86\Debug\System Post Controller Service.exe
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\System Post Controller Service\obj\x86\Debug\System Post Controller Service.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\System Post Controller Service\bin\Debug\TwinCAT.Ads.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\System Post Controller Service\bin\Debug\TwinCAT.Ads.xml
+C:\Users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\System Post Controller Service\bin\Debug\MMWrapper.dll
+C:\Users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\System Post Controller Service\bin\Debug\MMWrapper.pdb
+C:\Users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\System Post Controller Service\bin\Debug\System Post Controller Service.exe.config
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\System Post Controller Service\bin\Debug\app.config
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\System Post Controller Service\bin\Debug\app.config
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\System Post Controller Service\bin\Debug\System Post Controller Service.exe.config
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\System Post Controller Service\bin\Debug\System Post Controller Service.exe
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\System Post Controller Service\bin\Debug\System Post Controller Service.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\System Post Controller Service\bin\Debug\ADSWrapper.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\System Post Controller Service\bin\Debug\CANWrapper.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\System Post Controller Service\bin\Debug\Kongsberg.AVL.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\System Post Controller Service\bin\Debug\MMWrapper.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\System Post Controller Service\bin\Debug\TwinCAT.Ads.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\System Post Controller Service\bin\Debug\vxlapi_NET20.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\System Post Controller Service\bin\Debug\ADSWrapper.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\System Post Controller Service\bin\Debug\CANWrapper.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\System Post Controller Service\bin\Debug\Kongsberg.AVL.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\System Post Controller Service\bin\Debug\MMWrapper.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\System Post Controller Service\bin\Debug\TwinCAT.Ads.xml
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\System Post Controller Service\bin\Debug\vxlapi_NET20.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\System Post Controller Service\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\System Post Controller Service\obj\x86\Debug\System Post Controller Service.exe
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\System Post Controller Service\obj\x86\Debug\System Post Controller Service.pdb

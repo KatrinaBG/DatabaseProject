@@ -1,0 +1,14 @@
+c:\users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\Kongsberg.AVL.Tests\obj\Debug\ResolveAssemblyReference.cache
+c:\users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\Kongsberg.AVL.Tests\bin\Debug\Kongsberg.AVL.Tests.dll
+c:\users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\Kongsberg.AVL.Tests\bin\Debug\Kongsberg.AVL.Tests.pdb
+c:\users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\Kongsberg.AVL.Tests\bin\Debug\Kongsberg.AVL.dll
+c:\users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\Kongsberg.AVL.Tests\bin\Debug\Kongsberg.AVL.pdb
+c:\users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\Kongsberg.AVL.Tests\obj\Debug\Kongsberg.AVL.Tests.dll
+c:\users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\Kongsberg.AVL.Tests\obj\Debug\Kongsberg.AVL.Tests.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\Kongsberg.AVL.Tests\bin\Debug\Kongsberg.AVL.Tests.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\Kongsberg.AVL.Tests\bin\Debug\Kongsberg.AVL.Tests.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\Kongsberg.AVL.Tests\bin\Debug\Kongsberg.AVL.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\Kongsberg.AVL.Tests\bin\Debug\Kongsberg.AVL.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\Kongsberg.AVL.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\Kongsberg.AVL.Tests\obj\Debug\Kongsberg.AVL.Tests.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\Kongsberg.AVL.Tests\obj\Debug\Kongsberg.AVL.Tests.pdb

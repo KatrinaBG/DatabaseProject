@@ -1,0 +1,10 @@
+c:\users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\Kongsberg.AVL\bin\Debug\Kongsberg.AVL.dll
+c:\users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\Kongsberg.AVL\bin\Debug\Kongsberg.AVL.pdb
+c:\users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\Kongsberg.AVL\obj\Debug\ResolveAssemblyReference.cache
+c:\users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\Kongsberg.AVL\obj\Debug\Kongsberg.AVL.dll
+c:\users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\Kongsberg.AVL\obj\Debug\Kongsberg.AVL.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\Kongsberg.AVL\bin\Debug\Kongsberg.AVL.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\Kongsberg.AVL\bin\Debug\Kongsberg.AVL.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\Kongsberg.AVL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\Kongsberg.AVL\obj\Debug\Kongsberg.AVL.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\Kongsberg.AVL\obj\Debug\Kongsberg.AVL.pdb

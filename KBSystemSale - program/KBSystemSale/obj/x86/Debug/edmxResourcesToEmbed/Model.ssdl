@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Test_kkModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="Test_kkModelStoreContainer">
+    <EntitySet Name="adres" EntityType="Test_kkModel.Store.adres" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FV_zakupu" EntityType="Test_kkModel.Store.FV_zakupu" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="kategoria" EntityType="Test_kkModel.Store.kategoria" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="kontrahenci" EntityType="Test_kkModel.Store.kontrahenci" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MZZ" EntityType="Test_kkModel.Store.MZZ" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="osoba_kontaktowa" EntityType="Test_kkModel.Store.osoba_kontaktowa" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="pozycje_zamowienia" EntityType="Test_kkModel.Store.pozycje_zamowienia" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="pracownik" EntityType="Test_kkModel.Store.pracownik" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="producent" EntityType="Test_kkModel.Store.producent" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="produkty" EntityType="Test_kkModel.Store.produkty" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="produkty_zamowienia" EntityType="Test_kkModel.Store.produkty_zamowienia" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="promocja" EntityType="Test_kkModel.Store.promocja" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sprzedaz" EntityType="Test_kkModel.Store.sprzedaz" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="wojewodztwo" EntityType="Test_kkModel.Store.wojewodztwo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="zamowienia" EntityType="Test_kkModel.Store.zamowienia" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_adres_wojewodztwo" Association="Test_kkModel.Store.FK_adres_wojewodztwo">
+      <End Role="wojewodztwo" EntitySet="wojewodztwo" />
+      <End Role="adres" EntitySet="adres" />
+    </AssociationSet>
+    <AssociationSet Name="FK_kontrahenci_adres" Association="Test_kkModel.Store.FK_kontrahenci_adres">
+      <End Role="adres" EntitySet="adres" />
+      <End Role="kontrahenci" EntitySet="kontrahenci" />
+    </AssociationSet>
+    <AssociationSet Name="FK_kontrahenci_adres1" Association="Test_kkModel.Store.FK_kontrahenci_adres1">
+      <End Role="adres" EntitySet="adres" />
+      <End Role="kontrahenci" EntitySet="kontrahenci" />
+    </AssociationSet>
+    <AssociationSet Name="FK_pracownik_adres" Association="Test_kkModel.Store.FK_pracownik_adres">
+      <End Role="adres" EntitySet="adres" />
+      <End Role="pracownik" EntitySet="pracownik" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FV_zakupu_kontrahenci" Association="Test_kkModel.Store.FK_FV_zakupu_kontrahenci">
+      <End Role="kontrahenci" EntitySet="kontrahenci" />
+      <End Role="FV_zakupu" EntitySet="FV_zakupu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FV_zakupu_MZZ" Association="Test_kkModel.Store.FK_FV_zakupu_MZZ">
+      <End Role="MZZ" EntitySet="MZZ" />
+      <End Role="FV_zakupu" EntitySet="FV_zakupu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_produkty_kategoria" Association="Test_kkModel.Store.FK_produkty_kategoria">
+      <End Role="kategoria" EntitySet="kategoria" />
+      <End Role="produkty" EntitySet="produkty" />
+    </AssociationSet>
+    <AssociationSet Name="FK_kontrahenci_osoba_kontaktowa" Association="Test_kkModel.Store.FK_kontrahenci_osoba_kontaktowa">
+      <End Role="osoba_kontaktowa" EntitySet="osoba_kontaktowa" />
+      <End Role="kontrahenci" EntitySet="kontrahenci" />
+    </AssociationSet>
+    <AssociationSet Name="FK_kontrahenci_pracownik" Association="Test_kkModel.Store.FK_kontrahenci_pracownik">
+      <End Role="pracownik" EntitySet="pracownik" />
+      <End Role="kontrahenci" EntitySet="kontrahenci" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MZZ_kontrahenci" Association="Test_kkModel.Store.FK_MZZ_kontrahenci">
+      <End Role="kontrahenci" EntitySet="kontrahenci" />
+      <End Role="MZZ" EntitySet="MZZ" />
+    </AssociationSet>
+    <AssociationSet Name="FK_producent_kontrahenci" Association="Test_kkModel.Store.FK_producent_kontrahenci">
+      <End Role="kontrahenci" EntitySet="kontrahenci" />
+      <End Role="producent" EntitySet="producent" />
+    </AssociationSet>
+    <AssociationSet Name="FK_sprzedaz_kontrahenci" Association="Test_kkModel.Store.FK_sprzedaz_kontrahenci">
+      <End Role="kontrahenci" EntitySet="kontrahenci" />
+      <End Role="sprzedaz" EntitySet="sprzedaz" />
+    </AssociationSet>
+    <AssociationSet Name="FK_sprzedaz_kontrahenci1" Association="Test_kkModel.Store.FK_sprzedaz_kontrahenci1">
+      <End Role="kontrahenci" EntitySet="kontrahenci" />
+      <End Role="sprzedaz" EntitySet="sprzedaz" />
+    </AssociationSet>
+    <AssociationSet Name="FK_pozycje_zamowienia_MZZ" Association="Test_kkModel.Store.FK_pozycje_zamowienia_MZZ">
+      <End Role="MZZ" EntitySet="MZZ" />
+      <End Role="pozycje_zamowienia" EntitySet="pozycje_zamowienia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_pozycje_zamowienia_produkty" Association="Test_kkModel.Store.FK_pozycje_zamowienia_produkty">
+      <End Role="produkty" EntitySet="produkty" />
+      <End Role="pozycje_zamowienia" EntitySet="pozycje_zamowienia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_producent_pracownik" Association="Test_kkModel.Store.FK_producent_pracownik">
+      <End Role="pracownik" EntitySet="pracownik" />
+      <End Role="producent" EntitySet="producent" />
+    </AssociationSet>
+    <AssociationSet Name="FK_sprzedaz_pracownik" Association="Test_kkModel.Store.FK_sprzedaz_pracownik">
+      <End Role="pracownik" EntitySet="pracownik" />
+      <End Role="sprzedaz" EntitySet="sprzedaz" />
+    </AssociationSet>
+    <AssociationSet Name="FK_produkty_producent" Association="Test_kkModel.Store.FK_produkty_producent">
+      <End Role="producent" EntitySet="producent" />
+      <End Role="produkty" EntitySet="produkty" />
+    </AssociationSet>
+    <AssociationSet Name="FK_produkty_promocja" Association="Test_kkModel.Store.FK_produkty_promocja">
+      <End Role="promocja" EntitySet="promocja" />
+      <End Role="produkty" EntitySet="produkty" />
+    </AssociationSet>
+    <AssociationSet Name="FK_produkty_zamowienia_produkty" Association="Test_kkModel.Store.FK_produkty_zamowienia_produkty">
+      <End Role="produkty" EntitySet="produkty" />
+      <End Role="produkty_zamowienia" EntitySet="produkty_zamowienia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_produkty_zamowienia_zamowienia" Association="Test_kkModel.Store.FK_produkty_zamowienia_zamowienia">
+      <End Role="zamowienia" EntitySet="zamowienia" />
+      <End Role="produkty_zamowienia" EntitySet="produkty_zamowienia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_sprzedaz_zamowienia" Association="Test_kkModel.Store.FK_sprzedaz_zamowienia">
+      <End Role="zamowienia" EntitySet="zamowienia" />
+      <End Role="sprzedaz" EntitySet="sprzedaz" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="adres">
+    <Key>
+      <PropertyRef Name="id_adres" />
+    </Key>
+    <Property Name="id_adres" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="panstwo" Type="nchar" Nullable="false" MaxLength="20" />
+    <Property Name="miasto" Type="nchar" Nullable="false" MaxLength="20" />
+    <Property Name="ulica" Type="nchar" Nullable="false" MaxLength="30" />
+    <Property Name="kod_pocztowy" Type="nchar" Nullable="false" MaxLength="6" />
+    <Property Name="nr_domu" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="nr_mieszkania" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="id_wojewodztwo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FV_zakupu">
+    <Key>
+      <PropertyRef Name="NR_fv" />
+    </Key>
+    <Property Name="NR_fv" Type="nvarchar" Nullable="false" MaxLength="15" />
+    <Property Name="data_wystawienia_fv" Type="datetime" Nullable="false" />
+    <Property Name="data_przyjecia" Type="datetime" Nullable="false" />
+    <Property Name="id_kontrahenci" Type="int" Nullable="false" />
+    <Property Name="termin_zaplaty" Type="int" Nullable="false" />
+    <Property Name="MZZ" Type="int" Nullable="false" />
+    <Property Name="zaplacono" Type="binary" Nullable="false" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="kategoria">
+    <Key>
+      <PropertyRef Name="id_kategoria" />
+    </Key>
+    <Property Name="id_kategoria" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nazwa" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="kontrahenci">
+    <Key>
+      <PropertyRef Name="id_kontrahenci" />
+    </Key>
+    <Property Name="id_kontrahenci" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nazwa" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="id_adres_wysylki" Type="int" Nullable="false" />
+    <Property Name="id_adres_fv" Type="int" Nullable="false" />
+    <Property Name="nip" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="regon" Type="int" Nullable="false" />
+    <Property Name="id_osoba_kontaktowa" Type="int" Nullable="false" />
+    <Property Name="id_pracownika" Type="nvarchar" Nullable="false" MaxLength="7" />
+    <Property Name="umowa" Type="bit" Nullable="false" />
+    <Property Name="data_podpisania_umowy" Type="datetime" Nullable="false" />
+    <Property Name="kredyt_kupiecki" Type="decimal" Nullable="false" />
+    <Property Name="wartosc_kredytu" Type="decimal" Nullable="true" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="MZZ">
+    <Key>
+      <PropertyRef Name="MZZ1" />
+    </Key>
+    <Property Name="MZZ1" Type="int" Nullable="false" />
+    <Property Name="data_zamowienia" Type="datetime" Nullable="false" />
+    <Property Name="id_kontrahenci" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="osoba_kontaktowa">
+    <Key>
+      <PropertyRef Name="id_osoba_kontaktowa" />
+    </Key>
+    <Property Name="id_osoba_kontaktowa" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="imie" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="nazwisko" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="tel" Type="nvarchar" Nullable="false" MaxLength="15" />
+    <Property Name="mail" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="pozycje_zamowienia">
+    <Key>
+      <PropertyRef Name="id_pozycje_zamowienia" />
+    </Key>
+    <Property Name="id_pozycje_zamowienia" Type="int" Nullable="false" />
+    <Property Name="id_produkty" Type="int" Nullable="false" />
+    <Property Name="cena" Type="decimal" Nullable="true" Precision="19" Scale="4" />
+    <Property Name="ilosc_zamowiona" Type="int" Nullable="false" />
+    <Property Name="ilosc_przyjeta" Type="int" Nullable="true" />
+    <Property Name="MZZ" Type="int" Nullable="false" />
+    <Property Name="wartosc" Type="decimal" Nullable="true" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="pracownik">
+    <Key>
+      <PropertyRef Name="id_pracownika" />
+    </Key>
+    <Property Name="id_pracownika" Type="nvarchar" Nullable="false" MaxLength="7" />
+    <Property Name="imie" Type="nchar" Nullable="false" MaxLength="30" />
+    <Property Name="nazwisko" Type="nchar" Nullable="false" MaxLength="30" />
+    <Property Name="pesel" Type="char" Nullable="false" MaxLength="11" />
+    <Property Name="id_adres" Type="int" Nullable="false" />
+    <Property Name="wyplata" Type="decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="pracuje" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="producent">
+    <Key>
+      <PropertyRef Name="id_producent" />
+    </Key>
+    <Property Name="id_producent" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_kontrahenci" Type="int" Nullable="false" />
+    <Property Name="id_pracownika" Type="nvarchar" Nullable="false" MaxLength="7" />
+    <Property Name="logo" Type="bit" Nullable="false" />
+    <Property Name="strona_www" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="produkty">
+    <Key>
+      <PropertyRef Name="id_produkty" />
+    </Key>
+    <Property Name="id_produkty" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_producent" Type="int" Nullable="false" />
+    <Property Name="model" Type="nchar" Nullable="false" MaxLength="30" />
+    <Property Name="opis" Type="varchar(max)" Nullable="true" />
+    <Property Name="cena_katalogowa" Type="decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="stan_magazynowy" Type="int" Nullable="false" />
+    <Property Name="id_kategoria" Type="int" Nullable="false" />
+    <Property Name="PN" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="aktywne" Type="bit" Nullable="false" />
+    <Property Name="id_promocja" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="produkty_zamowienia">
+    <Key>
+      <PropertyRef Name="id_produkty_zam" />
+    </Key>
+    <Property Name="id_produkty_zam" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_zamowienia" Type="int" Nullable="false" />
+    <Property Name="id_produkty" Type="int" Nullable="false" />
+    <Property Name="cena" Type="decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="ilosc" Type="int" Nullable="false" />
+    <Property Name="suma" Type="decimal" Nullable="false" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="promocja">
+    <Key>
+      <PropertyRef Name="id_promocji" />
+    </Key>
+    <Property Name="id_promocji" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="odniżka" Type="decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="data_rozpoczecia" Type="datetime" Nullable="false" />
+    <Property Name="data_zakonczenia" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sprzedaz">
+    <Key>
+      <PropertyRef Name="id_sprzedaz" />
+    </Key>
+    <Property Name="id_sprzedaz" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_zamowienia" Type="int" Nullable="false" />
+    <Property Name="id_pracownika" Type="nvarchar" Nullable="false" MaxLength="7" />
+    <Property Name="id_kontrahenci" Type="int" Nullable="false" />
+    <Property Name="id_kontrahent_adres" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="wojewodztwo">
+    <Key>
+      <PropertyRef Name="id_wojewodztwo" />
+    </Key>
+    <Property Name="id_wojewodztwo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nazwa" Type="nchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="zamowienia">
+    <Key>
+      <PropertyRef Name="id_zamowienia" />
+    </Key>
+    <Property Name="id_zamowienia" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="data_wystawienia" Type="datetime" Nullable="false" />
+    <Property Name="data_realizacji" Type="datetime" Nullable="false" />
+    <Property Name="wartosc_brutto" Type="decimal" Nullable="false" Precision="19" Scale="4" />
+  </EntityType>
+  <Association Name="FK_adres_wojewodztwo">
+    <End Role="wojewodztwo" Type="Test_kkModel.Store.wojewodztwo" Multiplicity="1" />
+    <End Role="adres" Type="Test_kkModel.Store.adres" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="wojewodztwo">
+        <PropertyRef Name="id_wojewodztwo" />
+      </Principal>
+      <Dependent Role="adres">
+        <PropertyRef Name="id_wojewodztwo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_kontrahenci_adres">
+    <End Role="adres" Type="Test_kkModel.Store.adres" Multiplicity="1" />
+    <End Role="kontrahenci" Type="Test_kkModel.Store.kontrahenci" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="adres">
+        <PropertyRef Name="id_adres" />
+      </Principal>
+      <Dependent Role="kontrahenci">
+        <PropertyRef Name="id_adres_wysylki" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_kontrahenci_adres1">
+    <End Role="adres" Type="Test_kkModel.Store.adres" Multiplicity="1" />
+    <End Role="kontrahenci" Type="Test_kkModel.Store.kontrahenci" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="adres">
+        <PropertyRef Name="id_adres" />
+      </Principal>
+      <Dependent Role="kontrahenci">
+        <PropertyRef Name="id_adres_fv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_pracownik_adres">
+    <End Role="adres" Type="Test_kkModel.Store.adres" Multiplicity="1" />
+    <End Role="pracownik" Type="Test_kkModel.Store.pracownik" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="adres">
+        <PropertyRef Name="id_adres" />
+      </Principal>
+      <Dependent Role="pracownik">
+        <PropertyRef Name="id_adres" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FV_zakupu_kontrahenci">
+    <End Role="kontrahenci" Type="Test_kkModel.Store.kontrahenci" Multiplicity="1" />
+    <End Role="FV_zakupu" Type="Test_kkModel.Store.FV_zakupu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kontrahenci">
+        <PropertyRef Name="id_kontrahenci" />
+      </Principal>
+      <Dependent Role="FV_zakupu">
+        <PropertyRef Name="id_kontrahenci" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FV_zakupu_MZZ">
+    <End Role="MZZ" Type="Test_kkModel.Store.MZZ" Multiplicity="1" />
+    <End Role="FV_zakupu" Type="Test_kkModel.Store.FV_zakupu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MZZ">
+        <PropertyRef Name="MZZ1" />
+      </Principal>
+      <Dependent Role="FV_zakupu">
+        <PropertyRef Name="MZZ" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_produkty_kategoria">
+    <End Role="kategoria" Type="Test_kkModel.Store.kategoria" Multiplicity="1" />
+    <End Role="produkty" Type="Test_kkModel.Store.produkty" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kategoria">
+        <PropertyRef Name="id_kategoria" />
+      </Principal>
+      <Dependent Role="produkty">
+        <PropertyRef Name="id_kategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_kontrahenci_osoba_kontaktowa">
+    <End Role="osoba_kontaktowa" Type="Test_kkModel.Store.osoba_kontaktowa" Multiplicity="1" />
+    <End Role="kontrahenci" Type="Test_kkModel.Store.kontrahenci" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="osoba_kontaktowa">
+        <PropertyRef Name="id_osoba_kontaktowa" />
+      </Principal>
+      <Dependent Role="kontrahenci">
+        <PropertyRef Name="id_osoba_kontaktowa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_kontrahenci_pracownik">
+    <End Role="pracownik" Type="Test_kkModel.Store.pracownik" Multiplicity="1" />
+    <End Role="kontrahenci" Type="Test_kkModel.Store.kontrahenci" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="pracownik">
+        <PropertyRef Name="id_pracownika" />
+      </Principal>
+      <Dependent Role="kontrahenci">
+        <PropertyRef Name="id_pracownika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MZZ_kontrahenci">
+    <End Role="kontrahenci" Type="Test_kkModel.Store.kontrahenci" Multiplicity="1" />
+    <End Role="MZZ" Type="Test_kkModel.Store.MZZ" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kontrahenci">
+        <PropertyRef Name="id_kontrahenci" />
+      </Principal>
+      <Dependent Role="MZZ">
+        <PropertyRef Name="id_kontrahenci" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_producent_kontrahenci">
+    <End Role="kontrahenci" Type="Test_kkModel.Store.kontrahenci" Multiplicity="1" />
+    <End Role="producent" Type="Test_kkModel.Store.producent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kontrahenci">
+        <PropertyRef Name="id_kontrahenci" />
+      </Principal>
+      <Dependent Role="producent">
+        <PropertyRef Name="id_kontrahenci" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_sprzedaz_kontrahenci">
+    <End Role="kontrahenci" Type="Test_kkModel.Store.kontrahenci" Multiplicity="1" />
+    <End Role="sprzedaz" Type="Test_kkModel.Store.sprzedaz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kontrahenci">
+        <PropertyRef Name="id_kontrahenci" />
+      </Principal>
+      <Dependent Role="sprzedaz">
+        <PropertyRef Name="id_kontrahenci" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_sprzedaz_kontrahenci1">
+    <End Role="kontrahenci" Type="Test_kkModel.Store.kontrahenci" Multiplicity="1" />
+    <End Role="sprzedaz" Type="Test_kkModel.Store.sprzedaz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kontrahenci">
+        <PropertyRef Name="id_kontrahenci" />
+      </Principal>
+      <Dependent Role="sprzedaz">
+        <PropertyRef Name="id_kontrahent_adres" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_pozycje_zamowienia_MZZ">
+    <End Role="MZZ" Type="Test_kkModel.Store.MZZ" Multiplicity="1" />
+    <End Role="pozycje_zamowienia" Type="Test_kkModel.Store.pozycje_zamowienia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MZZ">
+        <PropertyRef Name="MZZ1" />
+      </Principal>
+      <Dependent Role="pozycje_zamowienia">
+        <PropertyRef Name="MZZ" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_pozycje_zamowienia_produkty">
+    <End Role="produkty" Type="Test_kkModel.Store.produkty" Multiplicity="1" />
+    <End Role="pozycje_zamowienia" Type="Test_kkModel.Store.pozycje_zamowienia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="produkty">
+        <PropertyRef Name="id_produkty" />
+      </Principal>
+      <Dependent Role="pozycje_zamowienia">
+        <PropertyRef Name="id_produkty" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_producent_pracownik">
+    <End Role="pracownik" Type="Test_kkModel.Store.pracownik" Multiplicity="1" />
+    <End Role="producent" Type="Test_kkModel.Store.producent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="pracownik">
+        <PropertyRef Name="id_pracownika" />
+      </Principal>
+      <Dependent Role="producent">
+        <PropertyRef Name="id_pracownika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_sprzedaz_pracownik">
+    <End Role="pracownik" Type="Test_kkModel.Store.pracownik" Multiplicity="1" />
+    <End Role="sprzedaz" Type="Test_kkModel.Store.sprzedaz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="pracownik">
+        <PropertyRef Name="id_pracownika" />
+      </Principal>
+      <Dependent Role="sprzedaz">
+        <PropertyRef Name="id_pracownika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_produkty_producent">
+    <End Role="producent" Type="Test_kkModel.Store.producent" Multiplicity="1" />
+    <End Role="produkty" Type="Test_kkModel.Store.produkty" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="producent">
+        <PropertyRef Name="id_producent" />
+      </Principal>
+      <Dependent Role="produkty">
+        <PropertyRef Name="id_producent" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_produkty_promocja">
+    <End Role="promocja" Type="Test_kkModel.Store.promocja" Multiplicity="1" />
+    <End Role="produkty" Type="Test_kkModel.Store.produkty" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="promocja">
+        <PropertyRef Name="id_promocji" />
+      </Principal>
+      <Dependent Role="produkty">
+        <PropertyRef Name="id_promocja" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_produkty_zamowienia_produkty">
+    <End Role="produkty" Type="Test_kkModel.Store.produkty" Multiplicity="1" />
+    <End Role="produkty_zamowienia" Type="Test_kkModel.Store.produkty_zamowienia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="produkty">
+        <PropertyRef Name="id_produkty" />
+      </Principal>
+      <Dependent Role="produkty_zamowienia">
+        <PropertyRef Name="id_produkty" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_produkty_zamowienia_zamowienia">
+    <End Role="zamowienia" Type="Test_kkModel.Store.zamowienia" Multiplicity="1" />
+    <End Role="produkty_zamowienia" Type="Test_kkModel.Store.produkty_zamowienia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="zamowienia">
+        <PropertyRef Name="id_zamowienia" />
+      </Principal>
+      <Dependent Role="produkty_zamowienia">
+        <PropertyRef Name="id_zamowienia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_sprzedaz_zamowienia">
+    <End Role="zamowienia" Type="Test_kkModel.Store.zamowienia" Multiplicity="1" />
+    <End Role="sprzedaz" Type="Test_kkModel.Store.sprzedaz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="zamowienia">
+        <PropertyRef Name="id_zamowienia" />
+      </Principal>
+      <Dependent Role="sprzedaz">
+        <PropertyRef Name="id_zamowienia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

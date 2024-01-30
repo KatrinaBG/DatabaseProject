@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Test_kkModelStoreContainer" CdmEntityContainer="Test_kkEntities">
+    <EntitySetMapping Name="adres">
+      <EntityTypeMapping TypeName="IsTypeOf(Test_kkModel.adres)">
+        <MappingFragment StoreEntitySet="adres">
+          <ScalarProperty Name="id_adres" ColumnName="id_adres" />
+          <ScalarProperty Name="panstwo" ColumnName="panstwo" />
+          <ScalarProperty Name="miasto" ColumnName="miasto" />
+          <ScalarProperty Name="ulica" ColumnName="ulica" />
+          <ScalarProperty Name="kod_pocztowy" ColumnName="kod_pocztowy" />
+          <ScalarProperty Name="nr_domu" ColumnName="nr_domu" />
+          <ScalarProperty Name="nr_mieszkania" ColumnName="nr_mieszkania" />
+          <ScalarProperty Name="id_wojewodztwo" ColumnName="id_wojewodztwo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FV_zakupu">
+      <EntityTypeMapping TypeName="IsTypeOf(Test_kkModel.FV_zakupu)">
+        <MappingFragment StoreEntitySet="FV_zakupu">
+          <ScalarProperty Name="NR_fv" ColumnName="NR_fv" />
+          <ScalarProperty Name="data_wystawienia_fv" ColumnName="data_wystawienia_fv" />
+          <ScalarProperty Name="data_przyjecia" ColumnName="data_przyjecia" />
+          <ScalarProperty Name="id_kontrahenci" ColumnName="id_kontrahenci" />
+          <ScalarProperty Name="termin_zaplaty" ColumnName="termin_zaplaty" />
+          <ScalarProperty Name="MZZ" ColumnName="MZZ" />
+          <ScalarProperty Name="zaplacono" ColumnName="zaplacono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kategoria">
+      <EntityTypeMapping TypeName="IsTypeOf(Test_kkModel.kategoria)">
+        <MappingFragment StoreEntitySet="kategoria">
+          <ScalarProperty Name="id_kategoria" ColumnName="id_kategoria" />
+          <ScalarProperty Name="nazwa" ColumnName="nazwa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kontrahenci">
+      <EntityTypeMapping TypeName="IsTypeOf(Test_kkModel.kontrahenci)">
+        <MappingFragment StoreEntitySet="kontrahenci">
+          <ScalarProperty Name="id_kontrahenci" ColumnName="id_kontrahenci" />
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+          <ScalarProperty Name="id_adres_wysylki" ColumnName="id_adres_wysylki" />
+          <ScalarProperty Name="id_adres_fv" ColumnName="id_adres_fv" />
+          <ScalarProperty Name="nip" ColumnName="nip" />
+          <ScalarProperty Name="regon" ColumnName="regon" />
+          <ScalarProperty Name="id_osoba_kontaktowa" ColumnName="id_osoba_kontaktowa" />
+          <ScalarProperty Name="id_pracownika" ColumnName="id_pracownika" />
+          <ScalarProperty Name="umowa" ColumnName="umowa" />
+          <ScalarProperty Name="data_podpisania_umowy" ColumnName="data_podpisania_umowy" />
+          <ScalarProperty Name="kredyt_kupiecki" ColumnName="kredyt_kupiecki" />
+          <ScalarProperty Name="wartosc_kredytu" ColumnName="wartosc_kredytu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MZZ">
+      <EntityTypeMapping TypeName="IsTypeOf(Test_kkModel.MZZ)">
+        <MappingFragment StoreEntitySet="MZZ">
+          <ScalarProperty Name="MZZ1" ColumnName="MZZ1" />
+          <ScalarProperty Name="data_zamowienia" ColumnName="data_zamowienia" />
+          <ScalarProperty Name="id_kontrahenci" ColumnName="id_kontrahenci" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="osoba_kontaktowa">
+      <EntityTypeMapping TypeName="IsTypeOf(Test_kkModel.osoba_kontaktowa)">
+        <MappingFragment StoreEntitySet="osoba_kontaktowa">
+          <ScalarProperty Name="id_osoba_kontaktowa" ColumnName="id_osoba_kontaktowa" />
+          <ScalarProperty Name="imie" ColumnName="imie" />
+          <ScalarProperty Name="nazwisko" ColumnName="nazwisko" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pozycje_zamowienia">
+      <EntityTypeMapping TypeName="IsTypeOf(Test_kkModel.pozycje_zamowienia)">
+        <MappingFragment StoreEntitySet="pozycje_zamowienia">
+          <ScalarProperty Name="id_pozycje_zamowienia" ColumnName="id_pozycje_zamowienia" />
+          <ScalarProperty Name="id_produkty" ColumnName="id_produkty" />
+          <ScalarProperty Name="cena" ColumnName="cena" />
+          <ScalarProperty Name="ilosc_zamowiona" ColumnName="ilosc_zamowiona" />
+          <ScalarProperty Name="ilosc_przyjeta" ColumnName="ilosc_przyjeta" />
+          <ScalarProperty Name="MZZ" ColumnName="MZZ" />
+          <ScalarProperty Name="wartosc" ColumnName="wartosc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pracownik">
+      <EntityTypeMapping TypeName="IsTypeOf(Test_kkModel.pracownik)">
+        <MappingFragment StoreEntitySet="pracownik">
+          <ScalarProperty Name="id_pracownika" ColumnName="id_pracownika" />
+          <ScalarProperty Name="imie" ColumnName="imie" />
+          <ScalarProperty Name="nazwisko" ColumnName="nazwisko" />
+          <ScalarProperty Name="pesel" ColumnName="pesel" />
+          <ScalarProperty Name="id_adres" ColumnName="id_adres" />
+          <ScalarProperty Name="wyplata" ColumnName="wyplata" />
+          <ScalarProperty Name="pracuje" ColumnName="pracuje" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="producent">
+      <EntityTypeMapping TypeName="IsTypeOf(Test_kkModel.producent)">
+        <MappingFragment StoreEntitySet="producent">
+          <ScalarProperty Name="id_producent" ColumnName="id_producent" />
+          <ScalarProperty Name="id_kontrahenci" ColumnName="id_kontrahenci" />
+          <ScalarProperty Name="id_pracownika" ColumnName="id_pracownika" />
+          <ScalarProperty Name="logo" ColumnName="logo" />
+          <ScalarProperty Name="strona_www" ColumnName="strona_www" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="produkty">
+      <EntityTypeMapping TypeName="IsTypeOf(Test_kkModel.produkty)">
+        <MappingFragment StoreEntitySet="produkty">
+          <ScalarProperty Name="id_produkty" ColumnName="id_produkty" />
+          <ScalarProperty Name="id_producent" ColumnName="id_producent" />
+          <ScalarProperty Name="model" ColumnName="model" />
+          <ScalarProperty Name="opis" ColumnName="opis" />
+          <ScalarProperty Name="cena_katalogowa" ColumnName="cena_katalogowa" />
+          <ScalarProperty Name="stan_magazynowy" ColumnName="stan_magazynowy" />
+          <ScalarProperty Name="id_kategoria" ColumnName="id_kategoria" />
+          <ScalarProperty Name="PN" ColumnName="PN" />
+          <ScalarProperty Name="aktywne" ColumnName="aktywne" />
+          <ScalarProperty Name="id_promocja" ColumnName="id_promocja" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="produkty_zamowienia">
+      <EntityTypeMapping TypeName="IsTypeOf(Test_kkModel.produkty_zamowienia)">
+        <MappingFragment StoreEntitySet="produkty_zamowienia">
+          <ScalarProperty Name="id_produkty_zam" ColumnName="id_produkty_zam" />
+          <ScalarProperty Name="id_zamowienia" ColumnName="id_zamowienia" />
+          <ScalarProperty Name="id_produkty" ColumnName="id_produkty" />
+          <ScalarProperty Name="cena" ColumnName="cena" />
+          <ScalarProperty Name="ilosc" ColumnName="ilosc" />
+          <ScalarProperty Name="suma" ColumnName="suma" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="promocja">
+      <EntityTypeMapping TypeName="IsTypeOf(Test_kkModel.promocja)">
+        <MappingFragment StoreEntitySet="promocja">
+          <ScalarProperty Name="id_promocji" ColumnName="id_promocji" />
+          <ScalarProperty Name="odniżka" ColumnName="odniżka" />
+          <ScalarProperty Name="data_rozpoczecia" ColumnName="data_rozpoczecia" />
+          <ScalarProperty Name="data_zakonczenia" ColumnName="data_zakonczenia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sprzedaz">
+      <EntityTypeMapping TypeName="IsTypeOf(Test_kkModel.sprzedaz)">
+        <MappingFragment StoreEntitySet="sprzedaz">
+          <ScalarProperty Name="id_sprzedaz" ColumnName="id_sprzedaz" />
+          <ScalarProperty Name="id_zamowienia" ColumnName="id_zamowienia" />
+          <ScalarProperty Name="id_pracownika" ColumnName="id_pracownika" />
+          <ScalarProperty Name="id_kontrahenci" ColumnName="id_kontrahenci" />
+          <ScalarProperty Name="id_kontrahent_adres" ColumnName="id_kontrahent_adres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wojewodztwo">
+      <EntityTypeMapping TypeName="IsTypeOf(Test_kkModel.wojewodztwo)">
+        <MappingFragment StoreEntitySet="wojewodztwo">
+          <ScalarProperty Name="id_wojewodztwo" ColumnName="id_wojewodztwo" />
+          <ScalarProperty Name="nazwa" ColumnName="nazwa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="zamowienia">
+      <EntityTypeMapping TypeName="IsTypeOf(Test_kkModel.zamowienia)">
+        <MappingFragment StoreEntitySet="zamowienia">
+          <ScalarProperty Name="id_zamowienia" ColumnName="id_zamowienia" />
+          <ScalarProperty Name="data_wystawienia" ColumnName="data_wystawienia" />
+          <ScalarProperty Name="data_realizacji" ColumnName="data_realizacji" />
+          <ScalarProperty Name="wartosc_brutto" ColumnName="wartosc_brutto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

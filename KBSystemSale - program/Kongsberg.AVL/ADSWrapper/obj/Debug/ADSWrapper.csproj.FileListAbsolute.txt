@@ -1,0 +1,13 @@
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\ADSWrapper\bin\Debug\ADSWrapper.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\ADSWrapper\bin\Debug\ADSWrapper.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\ADSWrapper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\ADSWrapper\obj\Debug\ADSWrapper.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\ADSWrapper\obj\Debug\ADSWrapper.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\ADSWrapper\bin\Debug\TwinCAT.Ads.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\ADSWrapper\bin\Debug\TwinCAT.Ads.xml
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\ADSWrapper\bin\Debug\ADSWrapper.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\ADSWrapper\bin\Debug\ADSWrapper.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\ADSWrapper\bin\Debug\TwinCAT.Ads.xml
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\ADSWrapper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\ADSWrapper\obj\Debug\ADSWrapper.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\ADSWrapper\obj\Debug\ADSWrapper.pdb

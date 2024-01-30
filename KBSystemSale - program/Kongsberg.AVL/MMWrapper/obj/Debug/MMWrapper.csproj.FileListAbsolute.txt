@@ -1,0 +1,16 @@
+C:\Users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\MMWrapper\bin\Debug\MMWrapper.dll
+C:\Users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\MMWrapper\bin\Debug\MMWrapper.pdb
+C:\Users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\MMWrapper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\MMWrapper\obj\Debug\MMWrapper.dll
+C:\Users\ppaluch\documents\visual studio 2010\Projects\Kongsberg.AVL\MMWrapper\obj\Debug\MMWrapper.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\MMWrapper\bin\Debug\Agilent.Agilent34410.Interop.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\MMWrapper\bin\Debug\Ivi.Dmm.Interop.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\MMWrapper\bin\Debug\Ivi.Driver.Interop.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\MMWrapper\bin\Debug\MMWrapper.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\MMWrapper\bin\Debug\MMWrapper.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\MMWrapper\bin\Debug\Agilent.Agilent34410.Interop.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\MMWrapper\bin\Debug\Ivi.Dmm.Interop.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\MMWrapper\bin\Debug\Ivi.Driver.Interop.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\MMWrapper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\MMWrapper\obj\Debug\MMWrapper.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\MMWrapper\obj\Debug\MMWrapper.pdb

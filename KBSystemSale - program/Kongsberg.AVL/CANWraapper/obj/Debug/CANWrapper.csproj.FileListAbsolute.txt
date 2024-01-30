@@ -1,0 +1,13 @@
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\CANWraapper\bin\Debug\CANWrapper.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\CANWraapper\bin\Debug\CANWrapper.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\CANWraapper\bin\Debug\vxlapi_NET20.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\CANWraapper\bin\Debug\vxlapi_NET20.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\CANWraapper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\CANWraapper\obj\Debug\CANWrapper.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\CANWraapper\obj\Debug\CANWrapper.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\CANWraapper\bin\Debug\CANWrapper.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\CANWraapper\bin\Debug\CANWrapper.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\CANWraapper\bin\Debug\vxlapi_NET20.pdb
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\CANWraapper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\CANWraapper\obj\Debug\CANWrapper.dll
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\KBSystemSale\Kongsberg.AVL\CANWraapper\obj\Debug\CANWrapper.pdb

@@ -1,0 +1,1 @@
+C:\Users\ppaluch\Documents\Visual Studio 2010\Projects\Kongsberg.AVL\Pump Post Contoller Service\obj\x86\Debug\ResolveAssemblyReference.cache

@@ -1,0 +1,83 @@
+﻿<Page x:Class="KBSystemSale.Peages.Towary"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="659" d:DesignWidth="705"
+	Title="Towary">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="204*" />
+            <ColumnDefinition Width="501*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Column="1">
+            <Label Content="Towary" Height="28" HorizontalAlignment="Center" Name="label1" VerticalAlignment="Top" Grid.Column="1" />
+            <TextBox Name="searchtbx" Width="400" TextChanged="searchtbx_TextChanged"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <RadioButton GroupName="searchg" Content="Nazwa" Name="nazwaradio" Click="nazwaradio_Click"/>
+                <RadioButton GroupName="searchg" Content="Producent" Name="prodradio" Click="nazwaradio_Click"/>
+                <RadioButton GroupName="searchg" Content="Kategoria" Name="katradio" Click="nazwaradio_Click"/>
+            </StackPanel>
+        </StackPanel>
+        <GroupBox Header="Menu główne" Height="618" HorizontalAlignment="Left" Margin="12,8,0,0" Name="groupBox1" VerticalAlignment="Top" Width="192" Grid.RowSpan="2">
+            <Grid Height="594">
+                <!--<Button Content="Wyszukaj" Height="34" HorizontalAlignment="Left" Margin="6,6,0,0" Name="buttonWyszukaj" VerticalAlignment="Top" Width="165" />-->
+                <Button Content="Modyfikuj" Height="34" HorizontalAlignment="Left" Margin="6,46,0,0" Name="buttonModyfikuj" VerticalAlignment="Top" Width="165" IsEnabled="False" Click="buttonModyfikuj_Click"/>
+                <Button Content="Dodaj" Height="34" HorizontalAlignment="Left" Margin="6,86,0,0" Name="button3" VerticalAlignment="Top" Width="165" Click="button3_Click"/>
+                <!--<Button Content="Szczegóły" Height="34" HorizontalAlignment="Left" Margin="6,126,0,0" Name="button4" VerticalAlignment="Top" Width="165" IsEnabled="False" />-->
+                <Button Content="Zamówienia" Height="34" HorizontalAlignment="Left" Margin="6,166,0,0" Name="button5" VerticalAlignment="Top" Width="165" />
+            </Grid>
+        </GroupBox>
+        <DataGrid Grid.Row="2" Grid.Column="1" AutoGenerateColumns="False" Name="dataGrid1" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True" SelectionChanged="dataGrid1_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding model}" Header="Nazwa"/>
+                <DataGridTextColumn Binding="{Binding Path=producent.kontrahenci.Nazwa}" Header="Producent"/>
+                <DataGridTextColumn Binding="{Binding stan_magazynowy}" Header="Ilość na magazynie"/>
+                <DataGridTextColumn Binding="{Binding cena_katalogowa}" Header="Cena"/>
+            </DataGrid.Columns>
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <TextBlock>Producent:</TextBlock>
+                        <TextBlock Grid.Row="1">Model:</TextBlock>
+                        <TextBlock Grid.Row="2">Cena:</TextBlock>
+                        <TextBlock Grid.Row="3">Stan magazynowy:</TextBlock>
+                        <TextBlock Grid.Row="4">Kategoria:</TextBlock>
+                        <TextBlock Grid.Row="5">PN:</TextBlock>
+                        <TextBlock Grid.Row="6">Aktywny:</TextBlock>
+                        <TextBlock Grid.Row="7">opis:</TextBlock>
+
+                        <TextBlock Grid.Column="1" Text="{Binding Path=producent.kontrahenci.Nazwa}"/>
+                        <TextBlock Grid.Column="1" Grid.Row="1" Text="{Binding model}"/>
+                        <TextBlock Grid.Column="1" Grid.Row="2" Text="{Binding cena_katalogowa}"/>
+                        <TextBlock Grid.Column="1" Grid.Row="3" Text="{Binding stan_magazynowy}"/>
+                        <TextBlock Grid.Column="1" Grid.Row="4" Text="{Binding Path=kategoria.nazwa}"/>
+                        <TextBlock Grid.Column="1" Grid.Row="5" Text="{Binding PN}"/>
+                        <CheckBox Grid.Column="1" Grid.Row="6" IsChecked="{Binding aktywne}" IsEnabled="False"/>
+                        <TextBlock Grid.Column="1" Grid.Row="7" Text="{Binding opis}"/>
+                    </Grid>
+                 </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+        </DataGrid>
+    </Grid>
+</Page>
