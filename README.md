@@ -7,7 +7,7 @@
 
 2. **Technologies Used:**.
    - **Relational Database:** The relational database model, key assumptions, and application in storing persistent data are described.
-   - ** SQL Language:** Structured Query Language as a tool for manipulating data in databases is presented.
+   - **SQL Language:** Structured Query Language as a tool for manipulating data in databases is presented.
    - **MS SQL Server:** A database management system, supported by Microsoft, using the Transact-SQL language is discussed.
    - **C# Language:** C# as an object-oriented programming language used in applications on the .NET Framework is presented.
 
